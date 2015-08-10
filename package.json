@@ -1,0 +1,16 @@
+{
+  "name": "transactionhandle",
+  "version": "1.0.0",
+  "description": "\"Reads Transaction JSON files in a specified directory and formats it to insert into a MongoDatabase collection",
+  "main": "JSONUpload.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sandeep Raghunandhan",
+  "private": true,
+  "dependencies":{
+  	"async":"0.1.x",
+  	"mongodb": "1.2.x"
+  },
+  "license": "ISC"
+}
