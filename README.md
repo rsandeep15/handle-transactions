@@ -4,7 +4,7 @@ Use this node app to upload large JSON Transaction documents to the ZenLeaderBoa
 * Use DynamicUpload.js to watch for new JSON Transaction files coming into the directory and
 update the Mongo Database
 
-node DynamicUpload.js /PATH/TO/DIRECTORY/
+<b>node DynamicUpload.js /PATH/TO/DIRECTORY/</b>
 
 * Use StaticUpload.js to read all existing JSON Transaction files in the directory and update
 the Mongo Database
