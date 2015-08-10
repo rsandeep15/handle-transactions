@@ -1,5 +1,5 @@
 # handle-transactions
-<p>Use this node app to upload large JSON Transaction documents to the ZenLeaderBoard meteor application. </p>
+<p>Use this node app to upload large JSON Transaction documents to the ZenLeaderBoard Meteor application. </p>
 
 * Use DynamicUpload.js to watch for new JSON Transaction files coming into the directory and
 update the Mongo Database
@@ -10,3 +10,5 @@ update the Mongo Database
 the Mongo Database
 
     <b>node StaticUpload.js /PATH/TO/DIRECTORY/</b>
+
+<p> App must be run on port 3000 from a localhost </p>
