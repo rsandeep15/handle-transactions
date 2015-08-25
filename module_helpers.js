@@ -1,3 +1,4 @@
+// Helper methods to format documents before inserting them into Mongo Database
 var formatFile = function formatJSON (JSONDoc)
 {
   var newJSON = {};

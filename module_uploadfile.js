@@ -21,13 +21,13 @@ var uploadJSON = function(file, autoclose){
             // Keep track of uploaded files
             var fileName = {};
             fileName["File_Name"] = file;  
-            Files.insert(fileName, function(err, myDoc){
-            
+            Files.insert(fileName, function(err, myDoc){ 
             if (err)
             {
               console.log("Could not upload fileName to collection");
             }
             });
+            // Read a single file line by line and upload JSON docs to Mongo Database
             fs.readFile(file, 'utf8', function callback(err, data){
               if (err)
               {
